@@ -3,7 +3,7 @@ import wave
 #import matplotlib.pyplot as plt
 
 
-wav = wave.open('D:\\DSP-with-python\\digital_signal\\handel.wav','r')
+wav = wave.open('D:\\python\\DSP-with-python\\digital_signal\\handel.wav','r')
 #wave.open("欲開啟檔案位置") 重要
 
 num_channels = wav.getnchannels()
